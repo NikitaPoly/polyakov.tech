@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="FRONTEND/css/body.css">
+  <link rel="stylesheet" href="FRONTEND/css/nav.css">
+  <link rel="stylesheet" href="FRONTEND/css/header.css">
+  <link rel="stylesheet" href="FRONTEND/css/home.css">
+  <link rel="stylesheet" href="FRONTEND/css/footer.css">
+  <!--Home page of polyakov.tech. This page should be returned on default git to polyakov.tech | polyakov.tech/ | polyakov.tech/home-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polyakov.tech</title>
+</head>
+
+<body>
+  <nav>
+    <img src="FRONTEND/graphics/navLogo.svg" alt="navLogo">
+    <a id="active">Home</a>
+    <a href="/resume">Resume</a>
+    <a href="/projects">Projects</a>
+    <a href="/contact">Contact</a>
+  </nav>
+  <np-ecard>
+    <img src="FRONTEND/graphics/cardLogo.svg">
+    <h1>Nikita Polyakov</h1>
+    <h2>Computer Science</h2>
+    <h2>DePauw University</h2>
+    <a href="/contact">Polyakov.tech/contact</a>
+  </np-ecard>
+  <header>
+    <h1>Website News</h1>
+    <h1>Button Click<br>Leader Board</h1>
+  </header>
+  <div id="main">
+    <main>
+      <ul>
+        <li>
+          <h2>23/1/2021 - First Fullstack Website</h2>
+          <p>Finished first restfull fullstack website.</p>
+        </li>
+        <li>
+          <h2>7/23/2020 - First Backend</h2>
+          <p>Built first backend using Node.JS alongside MongoDB. Switched hosting from Netlify to Heroku.</p>
+        </li>
+        <li>
+          <h2>6/18/2020 - First website</h2>
+          <p>First version of the website was made using CSS, HTML and JS. Hosted on Netlify.</p>
+        </li>
+      </ul>
+    </main>
+    <img src="FRONTEND/graphics/bodyLogo.svg" alt="bodyLogo">
+    <section id="buttonGame">
+      <button id="gameButton">Click</button>
+      <ol>
+        <li>Nikita 201 : 0</li>
+        <li>None : 0</li>
+        <li>None : 0</li>
+        <li>None : 0</li>
+        <li>None : 0</li>
+        <li>None : 0</li>
+        <li>None : 0</li>
+        <li>None : 0</li>
+        <li>None : 0</li>
+        <li>None : 0</li>
+      </ol>
+      <input id="playerNameInput" placeholder="Name">
+      <button id="gameSendButton">Submit</button>
+    </section>
+  </div>
+  <footer>
+    <button id="copyButton" onclick="navigator.clipboard.writeText('@nikitapoly_')">@nikitapoly_</button>
+    <a href="https://www.instagram.com/nikitapoly_/" target="__blank">
+      <img src="FRONTEND/graphics/instagramLogo.svg" alr="instagramLogo">
+    </a>
+    <a href="https://twitter.com/nikitapoly1" target="__blank">
+      <img src="FRONTEND/graphics/twitterLogo.svg" alt="twitterLogo">
+    </a>
+    <a href="https://www.linkedin.com/in/nikitapolyakovlink/" target="__blank">
+      <img src="FRONTEND/graphics/linkedinLogo.svg" alt="linkedinLogo">
+    </a>
+    <a href="/contact">Bug report</a>
+    <a href="/contact">Question?</a>
+    <a href="/contact">Need a Website</a>
+    <a href="/contact">Want to learn tech?</a>
+    <img src="FRONTEND/graphics/footerLogo.svg" alt="footerLogo">
+  </footer>
+  <script src="FRONTEND/js/np-ecard.js"></script>
+  <script src="FRONTEND/js/gameButtonSubmit.js"></script>
+  <script src="FRONTEND/js/updateLeaderBoard.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+header{/*the default banner style*/
+    background-color:var(--mainLight--);
+    max-height:10rem;
+    min-height:10rem;
+}
+    header h1{
+        text-align:center;
+        font-weight:bold;
+    }

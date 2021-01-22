@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="FRONTEND/css/body.css">
+  <link rel="stylesheet" href="FRONTEND/css/nav.css">
+  <link rel="stylesheet" href="FRONTEND/css/header.css">
+  <link rel="stylesheet" href="FRONTEND/css/projects.css">
+  <link rel="stylesheet" href="FRONTEND/css/footer.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polyakov.tech</title>
+</head>
+
+<body>
+  <nav>
+    <img src="FRONTEND/graphics/navLogo.svg" alt="navLogo">
+    <a href="/home">Home</a>
+    <a href="/resume">Resume</a>
+    <a id="active">Projects</a>
+    <a href="/contact">Contact</a>
+  </nav>
+  <div id="main">
+    <section id="Project1">
+      <h1>Polyakov.tech</h1>
+      <h2>Fullstack website</h2>
+      <p>This is my first project outside of class work or internship work. During my sophomore year I wanted to dive deeper into the possibilities of code and attempted to create a website. Quickly I found an interest in programing outside of class and took the summer before sophomore year learning basics of the web. After sophomore year I was able to build my first website using HTML, CSS and JS only. Realizing I can also build my own back end I started research and was able to finish my first full stack website with node and mongoDB by the end of January 2021. During my project I was focused on understanding how the basic building blocks of the web work and avoided using major frameworks that abstract key ides of the process. I used Node as a javascript runtime and built a server using my html, css and js files. Along the way I was able to practice writing readable code while version controlling with git. I also learned the importance of HTTPS over HTPP, how a basic Rest API can be built, and resources needed to host a website. When I revisit this project, I aim to use typescript for the back end, build a much easier way of management the content on the site and continue to keep learning by avoiding prebuilt libraries and frameworks. Click the button bellow to view code. </p>
+      <a href="https://github.com/NikitaPoly/polyakov.tech" target="__blank">
+        <img src="FRONTEND/graphics/gitLogo.svg" alt="githubLogo">
+      </a>
+    </section>
+    <section id="Project2">
+      <h1>&#60np-Library&#62</h1>
+      <h2>My Website elements</h2>
+      <p>While working on my main project, I found that having a library of reusable code for the front end is a great opportunity to learn how the front end works. Alongside code snippets custom html tags are available to use. The e-card custom tag helps you build a business card that can be seen in the mobile version of your website. </p>
+      <a href="#">
+        <img src="FRONTEND/graphics/gitLogo.svg" alt="githubLogo">
+      </a>
+    </section>
+    <section></section>
+  </div>
+  <footer>
+    <button id="copyButton" onclick="navigator.clipboard.writeText('@nikitapoly_')">@nikitapoly_</button>
+    <a href="https://www.instagram.com/nikitapoly_/" target="__blank">
+      <img src="FRONTEND/graphics/instagramLogo.svg" alr="instagramLogo">
+    </a>
+    <a href="https://twitter.com/nikitapoly1" target="__blank">
+      <img src="FRONTEND/graphics/twitterLogo.svg" alt="twitterLogo">
+    </a>
+    <a href="https://www.linkedin.com/in/nikitapolyakovlink/" target="__blank">
+      <img src="FRONTEND/graphics/linkedinLogo.svg" alt="linkedinLogo">
+    </a>
+    <a href="/contact">Bug report</a>
+    <a href="/contact">Question?</a>
+    <a href="/contact">Need a Website</a>
+    <a href="/contact">Want to learn tech?</a>
+    <img src="FRONTEND/graphics/footerLogo.svg" alt="footerLogo">
+  </footer>
+  <np-ecard>
+    <img src="FRONTEND/graphics/cardLogo.svg">
+    <h1>Nikita Polyakov</h1>
+    <h2>Computer Science</h2>
+    <h2>DePauw University</h2>
+    <a href="/contact">Polyakov.tech/contact</a>
+  </np-ecard>
+</body>
+<script src="FRONTEND/js/np-ecard.js"></script>
+</html>

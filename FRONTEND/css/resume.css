@@ -1,0 +1,64 @@
+header {/*custom banner*/
+    text-align:center;
+}
+    header h1{
+        padding-top:1rem;
+        margin-bottom:.8rem;
+    }
+    header a, header a:visited{
+        margin:0 10vw;
+        color:white;
+        font-size:1rem;
+        font-weight:500;
+        padding: .5rem 1rem;
+    }
+        header a#pdfLink{
+            background-color:#EF1221;
+        }
+        header a#linkedinLink{
+            background-color:#0E76A8;
+        }
+        header a#githubLink{
+            background-color:black;
+        }
+        header div#bannerLinks{
+            display:flex;
+            justify-content:center;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+div#main{/*fixing look of main content div on this page*/
+    text-align:center;
+}
+    div#main p{
+        text-align:left;
+        margin:0 10rem;
+        background-color:white;
+        padding:3rem;
+    }
+
+    div#main h2{
+        margin:1rem;
+    }
+    div#main ul{
+        list-style: none;
+        margin: 1rem;
+        margin-bottom: 3rem;
+    }
+    div#main ul li{
+        margin:.3rem;
+        color:var(--mainDark--);
+        font-weight: 700;
+    }
+@media only screen and (max-width:760px) and (pointer:coarse), only screen and (orientation:landscape) and (hover:none)/*phone landscape and portirate*/, only screen and (max-width:600px) and (pointer:fine)/*halfed screen on a window*/, only screen and (orientation:landscape) and (max-width:820px) and (pointer:coarse)/*phone in landscape mode*/{
+    
+    header h1{
+        font-size: 5vw;
+    }
+    header a{
+        padding:.5rem;
+    }
+    div#main p{
+        margin:5vw;
+    }
+}

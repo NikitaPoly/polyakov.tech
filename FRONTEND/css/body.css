@@ -1,0 +1,33 @@
+:root{/*Root of whole project, added default colors*/
+    --mainDark--:#065A51;
+    --mainLight--:#36E1A1;
+    --mainWhite--:#C3E6D9;
+}
+*{/*basic boiler css*/
+    padding:0;
+    margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body{
+    background-color:var(--mainWhite--);
+}
+div#main{/*setting the min height of the main div in the page*/
+    min-height:75vh;
+}
+button{/*default button for website*/
+    background-color:var(--mainDark--);
+    color:var(--mainWhite--);
+    border:none;
+    font-weight:bold;
+    padding:.4rem 1rem;
+    border-radius:.95rem;
+}
+a,a:visited{/*preventing link default css*/
+    text-decoration:none;
+    color:var(--mainDark--);
+}
+mark{/*default mark instead of hilight*/
+    color:var(--mainDark--);
+    font-weight:bolder;
+    background-color:white;
+}

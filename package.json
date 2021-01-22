@@ -1,0 +1,22 @@
+{
+  "name": "bedev",
+  "version": "1.0.0",
+  "description": "Do not change the front end code. Only change backend code.",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaPoly/Polyakov.techBACKENDDEV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikitaPoly/Polyakov.techBACKENDDEV/issues"
+  },
+  "homepage": "https://github.com/NikitaPoly/Polyakov.techBACKENDDEV#readme",
+  "dependencies": {
+    "mongodb": "^3.6.3"
+  }
+}
